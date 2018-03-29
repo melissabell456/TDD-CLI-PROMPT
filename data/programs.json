@@ -1,52 +1,60 @@
 {
-  "trainingPrograms": [
+  "programs": [
     {
       "program_name": "Executive",
+      "instructor_name": "Joe",
       "start_date": "2018-3-20",
       "end_date": "2018-7-26",
-      "max_attendees": 40
+      "no_of_seats": 40
     },
     {
       "program_name": "Engineer",
+      "instructor_name": "Arwa",
       "start_date": "2018-9-11",
       "end_date": "2019-3-1",
-      "max_attendees": 77
+      "no_of_seats": 77
     },
     {
       "program_name": "Architect",
+      "instructor_name": "Emily",
       "start_date": "2018-6-21",
       "end_date": "2019-1-19",
-      "max_attendees": 61
+      "no_of_seats": 61
     },
     {
       "program_name": "Consultant",
+      "instructor_name": "Steve",
       "start_date": "2018-3-20",
       "end_date": "2018-6-21",
-      "max_attendees": 29
+      "no_of_seats": 29
     },
     {
       "program_name": "Technician",
+      "instructor_name": "John",
       "start_date": "2018-9-21",
       "end_date": "2019-3-8",
-      "max_attendees": 83
+      "no_of_seats": 83
     },
     {
       "program_name": "Assistant",
+      "instructor_name": "Greg",
       "start_date": "2018-3-20",
       "end_date": "2018-11-17",
-      "max_attendees": 78
+      "no_of_seats": 78
     },
     {
       "program_name": "Orchestrator",
+      "instructor_name": "Joe",
       "start_date": "2019-1-1",
       "end_date": "2019-6-9",
-      "max_attendees": 44
+      "no_of_seats": 44
     },
     {
       "program_name": "Associate",
+      "instructor_name": "Emily",
       "start_date": "2018-4-1",
       "end_date": "2018-4-17",
-      "max_attendees": 64
+      "no_of_seats": 64
     }
   ]
 }
