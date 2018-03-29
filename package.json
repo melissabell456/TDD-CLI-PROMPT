@@ -1,0 +1,26 @@
+{
+  "name": "CLI",
+  "version": "1.0.0",
+  "description": "Build a command line interface for adding/deleting/viewing a training program to a table in a SQLite db",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/melissabell456/TDD-CLI-PROMPT.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/melissabell456/TDD-CLI-PROMPT/issues"
+  },
+  "homepage": "https://github.com/melissabell456/TDD-CLI-PROMPT#readme",
+  "dependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.0.5",
+    "prompt": "^1.0.0",
+    "sqlite3": "^4.0.0"
+  }
+}
