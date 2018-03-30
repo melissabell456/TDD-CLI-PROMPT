@@ -1,6 +1,7 @@
 'use strict';
 
-/** @module CLI - main module with prompts */
+/** @module CLI - main module only calls prompt module to initiate CLI for user */
 
-const prompt = require('prompt');
-const colors = require('colors/safe');
+const { userPrompts } = require('./prompt');
+
+userPrompts();

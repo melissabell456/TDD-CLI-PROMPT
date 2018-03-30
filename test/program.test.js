@@ -31,7 +31,7 @@ describe('programs', () => {
   })
   describe('getOneProgram()', () => {
     it('should return a single object which matches the id provided', () => {
-      getOneProgram(1)
+      return getOneProgram(1)
       .then( (returnedData) => {
         isObject(returnedData, 'not returning an object');
         deepEqual({"program_id": 1, "program_name": "Executive", "instructor_name": "Joe", "start_date": "2018-3-20", "end_date": "2018-7-26", "no_of_seats": 40}, returnedData, 'does not match the program requested');

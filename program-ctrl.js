@@ -8,17 +8,18 @@ module.exports.getPrograms = () => {
   return new Promise( (resolve, reject) => {
     getAllPrograms()
     .then(allPrograms => {
-      return allPrograms;
+      resolve(allPrograms);
     })
     .catch(err => console.log(err));
   })
+  
 }
 
 module.exports.getSingleProgram = ( id ) => {
   return new Promise( (resolve, reject) => {
     getOneProgram( id )
     .then( (program) => {
-      return program;
+      resolve(program);
     })
     .catch(err => console.log(err));
   })
