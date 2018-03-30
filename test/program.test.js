@@ -30,7 +30,7 @@ describe('programs', () => {
     })
   })
   describe('getOneProgram()', () => {
-    it('should return a single object', () => {
+    it('should return a single object which matches the id provided', () => {
       getOneProgram(1)
       .then( (returnedData) => {
         isObject(returnedData, 'not returning an object');

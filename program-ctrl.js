@@ -2,7 +2,7 @@
 
 /** @module program-ctrl - controller for program data */
 
-const { getAllPrograms } = require('./program');
+const { getAllPrograms, getOneProgram } = require('./program');
 
 module.exports.getPrograms = () => {
   return new Promise( (resolve, reject) => {
@@ -13,3 +13,13 @@ module.exports.getPrograms = () => {
     .catch(err => console.log(err));
   })
 }
+
+module.exports.getSingleProgram = ( id ) => {
+  return new Promise( (resolve, reject) => {
+    getOneProgram( id )
+    .then( (program) => {
+      return program;
+    })
+    .catch(err => console.log(err));
+  })
+};
