@@ -14,7 +14,15 @@ module.exports.getAllPrograms = () => {
   })
 };
 
-/** @method getOneProgram - takes argument*/
-module.exports.getOneProgram = () => {
-  
+/** @method getOneProgram - takes string argument of program name*/
+module.exports.getOneProgram = (id) => {
+  return new Promise( (resolve, reject) => {
+    db.each(
+      `SELECT * FROM programs
+      WHERE program_id = ${id}`, (err, program) => {
+        if (err) reject(err);
+        console.log(program);
+        resolve(program);
+      })
+  })
 }
